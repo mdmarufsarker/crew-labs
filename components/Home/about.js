@@ -2,8 +2,8 @@ import Card from './aboutCard'
 
 export default function about() {
   return (
-    <>
-        <div className='container mx-auto'>
+    <div>
+        <div className='container mx-auto -mt-20'>
             <div className='flex justify-center items-center flex-row'>
                 <div className='w-1/2 flex items-center'>
                     <div>
@@ -20,6 +20,6 @@ export default function about() {
                 </div>
             </div>
         </div>
-    </>
+    </div>
   )
 }

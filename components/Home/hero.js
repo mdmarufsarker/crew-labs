@@ -4,7 +4,7 @@ export default function hero() {
     return (
         <>
             <section className={styles.hero}>
-                <div className="heading py-12 flex flex-col justify-center items-center">
+                <div className={`heading py-12 flex flex-col justify-center items-center`}>
                     <h1 className={`${styles.blockchain}`}>Blockchain is <span className="text-blue-700">Fastest</span></h1>
                     <p className="text-center py-8 text-xl font-regular">
                     Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
