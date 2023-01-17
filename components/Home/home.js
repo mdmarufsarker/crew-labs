@@ -3,6 +3,7 @@ import Sponsors from './sponsors'
 import About from './about'
 import Services from './services'
 import Team from './team'
+import Contact from './contact'
 
 export default function home() {
     const bgmain = {
@@ -21,6 +22,7 @@ export default function home() {
             <div style={bgsub}><About/></div>
             <Services />
             <Team />
+            <Contact />
         </div>
     )
 }
