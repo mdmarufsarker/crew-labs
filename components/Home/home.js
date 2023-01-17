@@ -2,6 +2,7 @@ import Hero from './hero'
 import Sponsors from './sponsors'
 import About from './about'
 import Services from './services'
+import Team from './team'
 
 export default function home() {
     const bgmain = {
@@ -10,7 +11,6 @@ export default function home() {
     }
     const bgsub = {
         backgroundImage: "url(/images/backgrounds/bluedot2.png)",
-        // backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "top 50% left 0"
     }
@@ -20,6 +20,7 @@ export default function home() {
             <Sponsors />
             <div style={bgsub}><About/></div>
             <Services />
+            <Team />
         </div>
     )
 }
