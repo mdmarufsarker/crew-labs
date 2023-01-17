@@ -1,5 +1,6 @@
 import Hero from './hero'
 import Sponsors from './sponsors'
+import About from './about'
 
 export default function home() {
     const bgmain = {
@@ -16,6 +17,7 @@ export default function home() {
             <div style={bgsub}>
                 <Hero/>
                 <Sponsors />
+                <About />
             </div>
         </div>
     )

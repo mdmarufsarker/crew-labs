@@ -4,7 +4,7 @@ import Home from '../components/Home/home'
 export default function Index() {
   return (
     <>
-      <Layout className="container">
+      <Layout>
         <Home />
       </Layout>
     </>
