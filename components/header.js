@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+import styles from '../styles/Home/Home.module.css'
+
 export default function header() {
   return (
     <header className='container mx-auto bg-transparent'>
@@ -27,7 +29,7 @@ export default function header() {
             </li>
           </ul>
           <div>
-            <button className='bg-blue-500 text-white px-4 py-2 rounded-md'>
+            <button className={styles.btn}>
               Sign Up
             </button>
           </div>

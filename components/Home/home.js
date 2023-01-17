@@ -10,7 +10,7 @@ export default function home() {
     const bgsub = {
         backgroundImage: "url(/images/backgrounds/bluedot2.png)",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "bottom left"
+        backgroundPosition: "center left"
     }
     return (
         <div style={bgmain}>
