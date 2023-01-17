@@ -1,0 +1,20 @@
+.hero{
+    width: 100%;
+}
+.blockchain{
+    font-family: "Satoshi-Bold";
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: -7px;
+}
+.btngroup{
+    margin-left: -400px;
+}
+.btn{
+    font-size: 16px;
+    background: linear-gradient(265.56deg,#2962ff -.27%,#1e68f6 -.26%,#0047d0 98.59%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}

@@ -1,10 +1,11 @@
 import Layout from '../layout/layout'
+import Home from '../components/Home/home'
 
-export default function Home() {
+export default function Index() {
   return (
     <>
-      <Layout>
-        <h1>Website Body</h1>
+      <Layout className="container">
+        <Home />
       </Layout>
     </>
   )
