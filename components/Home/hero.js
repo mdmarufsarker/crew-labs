@@ -11,7 +11,7 @@ export default function hero() {
                     <br />
                     piece of classical Latin literature from 45 BC, making it over 2000 years.
                     </p>
-                    <div className={`flex gap-5 ${styles.btngroup}`}>
+                    <div className="flex gap-5">
                         <button className={styles.btn}>Get Started</button>
                         <button>Developer guides</button>
                     </div>
