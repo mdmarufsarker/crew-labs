@@ -2,7 +2,7 @@ import styles from '../../styles/Home/Home.module.css'
 
 export default function hero() {
     return (
-        <>
+        <section id="/">
             <section className={styles.hero}>
                 <div className={`heading py-12 flex flex-col justify-center items-center`}>
                     <h1 className={`${styles.blockchain}`}>Blockchain is <span className="text-blue-700">Fastest</span></h1>
@@ -18,6 +18,6 @@ export default function hero() {
                     <p className='uppercase pt-20 text-center font-bold text-sm text-gray-400'>Thousands of projects worldwide are using Crew Labs</p>
                 </div>
             </section>
-        </>
+        </section>
     )
 }

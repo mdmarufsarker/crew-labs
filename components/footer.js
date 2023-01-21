@@ -11,7 +11,7 @@ export default function footer() {
           <div className="container mx-auto flex flex-row justify-between items-center py-12">
             <div className="flex items-center justify-center gap-8">
               <Link href="/" className="text-3xl font-bold">
-                <Image src='/logowithtext.svg' width={150} height={150} />
+                <Image src='/logowithtext.svg' width={150} height={150} alt="" />
               </Link>
               <p className='mt-2'>© {year} @ Crew Labs — All Rights Reserved</p>
             </div>

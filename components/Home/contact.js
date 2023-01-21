@@ -44,17 +44,17 @@ export default function contact() {
         }));
     };
     return (
-        <>
+        <section id="contact">
             <div className='container mx-auto mt-20'>
                 <ToastContainer />
                 {status ? toast.success("Message Sent!") : null}
-                <div className='flex justify-center items-center flex-row'>
-                    <div className='w-1/2 flex flex-col items-start'>
+                <div className='flex justify-center items-center flex-col lg:flex-row xl:flex-row gap-10'>
+                    <div className='lg:w-1/2 flex flex-col items-center xl:items-start xl:ml-32'>
                         <p className='font-regular text-xl text-gray-400'>Questions, bug reports, feedback</p>
                         <h3 className='text-5xl font-bold'>Contact Us</h3>
                     </div>
-                    <div className='w-1/2 ml-32'>
-                        <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+                    <div className='flex items-center lg:w-1/2 xl:flex-col xl:ml-32 xl:items-start'>
+                        <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-full lg:-ml-8 xl:-ml-12">
                             <div>
                                 <label htmlFor="name" className="leading-7 text-lg text-gray-400">Name</label>
                                 <input
@@ -95,6 +95,6 @@ export default function contact() {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     )
 }

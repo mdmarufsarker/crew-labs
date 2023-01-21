@@ -1,6 +1,6 @@
 import Hero from './hero'
 import Sponsors from './sponsors'
-import About from './about'
+import About from './features'
 import Services from './services'
 import Team from './team'
 import Contact from './contact'

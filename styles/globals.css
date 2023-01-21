@@ -6,12 +6,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+html, body{
   /* font-family: "Satoshi-Medium"; */
   background: #000;
   color: #e6e6e6;
-
+  scroll-behavior: smooth;
+  transition: all 0.5s ease;
 }
+
 .btn{
   font-size: 16px;
   background: linear-gradient(265.56deg,#2962ff -.27%,#1e68f6 -.26%,#0047d0 98.59%);
